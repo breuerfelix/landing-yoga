@@ -1,275 +1,587 @@
-<html lang="de" class=" srcset pointerevents no-touchevents objectfit object-fit willchange tfxnrwg idc0_343">
+<!DOCTYPE html>
+<html lang="de">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" type="image/png" href="">
-    <title>Home | Yoga mit Amelie</title>
-    <meta name="robots" content="index, follow, archive">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Home | Yoga mit Amelie">
-    <meta property="og:site_name" content="Yoga mit Amelie">
-    <meta property="og:description" content="Happy body, happy mind, happy you! . . Hallo! Schön, dass du auf meiner Seite gelandet bist! ♡ . Hast du Lust auf eine Yoga-Stunde mit mir? Fühlst du dich gestresst in deinem Alltag? Hast du ab und zu Verspannungen im Rücken vom vielen Sitzen? Dann bist du hier genau richtig!">
-    <meta name="description" content="Happy body, happy mind, happy you! . . Hallo! Schön, dass du auf meiner Seite gelandet bist! ♡ . Hast du Lust auf eine Yoga-Stunde mit mir? Fühlst du dich gestresst in deinem Alltag? Hast du ab und zu Verspannungen im Rücken vom vielen Sitzen? Dann bist du hier genau richtig!">
-    <link href="dolphin.css" rel="stylesheet">
-    <!--TODO: use font from different source-->
-    <link href="https://fonts.jimstatic.com/css?display=swap&amp;family=Patua+One:400" rel="stylesheet">
-    <link href="https://fonts.jimstatic.com/css?display=swap&amp;family=Rubik:400,700" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- SEO Meta Tags -->
+    <title>
+      Yoga mit Amelie | Yoga Lehrerin in Bonn - Entspannung & Balance
+    </title>
+    <meta
+      name="description"
+      content="Yoga mit Amelie in Bonn. Hatha, Vinyasa und Yin Yoga für Anfänger und Fortgeschrittene. Finde innere Ruhe, baue Stress ab und stärke deinen Körper. Jetzt Probestunde buchen!"
+    />
+    <meta
+      name="keywords"
+      content="Yoga Bonn, Yoga Lehrerin, Hatha Yoga, Vinyasa Flow, Yin Yoga, Yoga Anfänger, Entspannung, Stressabbau, Yoga Kurse Bonn"
+    />
+    <meta name="author" content="Amelie" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yoga.elfri.ch/" />
+    <meta property="og:title" content="Yoga mit Amelie | Yoga in Bonn" />
+    <meta
+      property="og:description"
+      content="Happy body, happy mind, happy you! Yoga für mehr Entspannung, Beweglichkeit und innere Balance. Für Anfänger und Fortgeschrittene."
+    />
+    <meta property="og:image" content="https://yoga.elfri.ch/bg1.webp" />
+    <meta property="og:site_name" content="Yoga mit Amelie" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Yoga mit Amelie | Yoga in Bonn" />
+    <meta
+      name="twitter:description"
+      content="Happy body, happy mind, happy you! Yoga für mehr Entspannung und Balance."
+    />
+    <meta name="twitter:image" content="https://yoga.elfri.ch/bg1.webp" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.webp" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- Analytics -->
     <script>
-    (function(f, a, t, h, o, m){
-      a[h]=a[h]||function(){
-        (a[h].q=a[h].q||[]).push(arguments)
-      };
-      o=f.createElement('script'),
-      m=f.getElementsByTagName('script')[0];
-      o.async=1; o.src=t; o.id='fathom-script';
-      m.parentNode.insertBefore(o,m)
-    })(document, window, '//stats.felixbreuer.me/tracker.js', 'fathom');
-    fathom('set', 'siteId', 'YXERD');
-    fathom('trackPageview');
+      (function (f, a, t, h, o, m) {
+        a[h] =
+          a[h] ||
+          function () {
+            (a[h].q = a[h].q || []).push(arguments);
+          };
+        (o = f.createElement("script")),
+          (m = f.getElementsByTagName("script")[0]);
+        o.async = 1;
+        o.src = t;
+        o.id = "fathom-script";
+        m.parentNode.insertBefore(o, m);
+      })(document, window, "//stats.felixbreuer.me/tracker.js", "fathom");
+      fathom("set", "siteId", "YXERD");
+      fathom("trackPageview");
+    </script>
+
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "YogaStudio",
+        "name": "Yoga mit Amelie",
+        "description": "Yoga Lehrerin in Bonn - Hatha, Vinyasa und Yin Yoga",
+        "url": "https://yoga.elfri.ch/",
+        "logo": "https://yoga.elfri.ch/logo.webp",
+        "image": "https://yoga.elfri.ch/bg1.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bonn",
+          "addressCountry": "DE"
+        },
+        "email": "yoga_mit_amelie@yahoo.com",
+        "sameAs": ["https://www.instagram.com/yoga_mit_amelie/"]
+      }
     </script>
   </head>
   <body>
-    <div id="root">
-      <div class="MHfg3">
-        <main data-testid="static-page-main">
-          <div class="vHyeZ yaMr7">
-            <div>
-              <div style="padding-bottom: 0px;"></div>
-              <div class="N-9SZ">
-                <header class="wDqaX css-gogx7t css-dsverb sO8tu">
-                  <div class="Jj0HP _6SBsp IKUxh">
-                    <div class="_4PTmO">
-                    <!-- this div centers the logo -->
-                    </div>
-                    <div class="GEi32">
-                      <div class="Y3I5f">
-                        <a href="/" class="aOqi-">
-                          <div style="width:106px;max-width:100%;padding:15.4px 0;transition:width 300ms">
-                            <div class="hIG3J" style="padding-bottom:41.33%">
-                              <div class="HNCFr">
-                                <img class="IVe+H ZFVqO" style="width:100%" draggable="false" src="logo.webp" alt="" loading="lazy">
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="n-x61">
-                        <a href="/" class="aOqi-">
-                          <div class="fNCnn Sw7et">
-                            <div class="A8RBL">
-                              <p class="mvhZk"></p>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="EnuAk">
-                      <div class="HQbDu">
-                        <div class="_01w1y">
-                          <a href="https://www.instagram.com/yoga_mit_amelie/" target="_blank" class="mUV3B css-irzfol">
-                            <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                              <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="Social/Instagram" transform="translate(-10.000000, -10.000000)">
-                                  <path d="M24.0335249,11.8763976 C26.7380658,11.9994825 28.0013491,13.2827256 28.124434,15.9673067 C28.17267,17.0193498 28.1818182,17.3353786 28.1818182,20 C28.1818182,22.6654531 28.1718383,22.9806502 28.124434,24.0326933 C28.0005175,26.7147794 26.7405607,28.0005175 24.0335249,28.1236024 C22.9806502,28.1718383 22.6662847,28.1818182 20,28.1818182 C17.3353786,28.1818182 17.0193498,28.1718383 15.9673067,28.1236024 C13.2561127,27.9996858 11.9994825,26.7106212 11.8763976,24.0318616 C11.8281617,22.9798185 11.8181818,22.6646214 11.8181818,19.9991683 C11.8181818,17.3345469 11.8289933,17.0193498 11.8763976,15.9664751 C12.0003142,13.2827256 13.2602709,11.9986509 15.9673067,11.875566 C17.0201815,11.8281617 17.3353786,11.8181818 20,11.8181818 C22.6646214,11.8181818 22.9806502,11.8281617 24.0335249,11.8763976 Z M20,10 C17.2841667,10 16.9441667,10.0116667 15.8775,10.06 C12.2458333,10.2266667 10.2275,12.2416667 10.0608333,15.8766667 C10.0116667,16.9441667 10,17.2841667 10,20 C10,22.7158333 10.0116667,23.0566667 10.06,24.1233333 C10.2266667,27.755 12.2416667,29.7733333 15.8766667,29.94 C16.9441667,29.9883333 17.2841667,30 20,30 C22.7158333,30 23.0566667,29.9883333 24.1233333,29.94 C27.7516667,29.7733333 29.775,27.7583333 29.9391667,24.1233333 C29.9883333,23.0566667 30,22.7158333 30,20 C30,17.2841667 29.9883333,16.9441667 29.94,15.8775 C29.7766667,12.2491667 27.7591667,10.2275 24.1241667,10.0608333 C23.0566667,10.0116667 22.7158333,10 20,10 Z M20,14.5454545 C16.9876958,14.5454545 14.5454545,16.9874977 14.5454545,19.9995574 C14.5454545,23.0116172 16.9876958,25.4545455 20,25.4545455 C23.0123042,25.4545455 25.4545455,23.0125023 25.4545455,19.9995574 C25.4545455,16.9874977 23.0123042,14.5454545 20,14.5454545 Z M20,23.6363636 C17.9918182,23.6363636 16.3636364,22.0090909 16.3636364,20 C16.3636364,17.9918182 17.9918182,16.3636364 20,16.3636364 C22.0081818,16.3636364 23.6363636,17.9918182 23.6363636,20 C23.6363636,22.0090909 22.0081818,23.6363636 20,23.6363636 Z M25.4551768,13.6363636 C24.9526515,13.6363636 24.5454545,14.0435606 24.5454545,14.5454545 C24.5454545,15.0473485 24.9526515,15.4545455 25.4551768,15.4545455 C25.9570707,15.4545455 26.3636364,15.0473485 26.3636364,14.5454545 C26.3636364,14.0435606 25.9570707,13.6363636 25.4551768,13.6363636 Z" fill="currentColor"></path>
-                                </g>
-                              </g>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="K5R3r laM+i" style="background-color: rgb(191, 211, 196); height: calc(1303px);">
-                      <div class="_4G88P">
-                        <div class="HQbDu">
-                          <div class="_01w1y">
-                            <a href="https://www.instagram.com/yoga_mit_amelie/" target="_blank" class="mUV3B css-irzfol">
-                              <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                  <g id="Social/Instagram" transform="translate(-10.000000, -10.000000)">
-                                    <path d="M24.0335249,11.8763976 C26.7380658,11.9994825 28.0013491,13.2827256 28.124434,15.9673067 C28.17267,17.0193498 28.1818182,17.3353786 28.1818182,20 C28.1818182,22.6654531 28.1718383,22.9806502 28.124434,24.0326933 C28.0005175,26.7147794 26.7405607,28.0005175 24.0335249,28.1236024 C22.9806502,28.1718383 22.6662847,28.1818182 20,28.1818182 C17.3353786,28.1818182 17.0193498,28.1718383 15.9673067,28.1236024 C13.2561127,27.9996858 11.9994825,26.7106212 11.8763976,24.0318616 C11.8281617,22.9798185 11.8181818,22.6646214 11.8181818,19.9991683 C11.8181818,17.3345469 11.8289933,17.0193498 11.8763976,15.9664751 C12.0003142,13.2827256 13.2602709,11.9986509 15.9673067,11.875566 C17.0201815,11.8281617 17.3353786,11.8181818 20,11.8181818 C22.6646214,11.8181818 22.9806502,11.8281617 24.0335249,11.8763976 Z M20,10 C17.2841667,10 16.9441667,10.0116667 15.8775,10.06 C12.2458333,10.2266667 10.2275,12.2416667 10.0608333,15.8766667 C10.0116667,16.9441667 10,17.2841667 10,20 C10,22.7158333 10.0116667,23.0566667 10.06,24.1233333 C10.2266667,27.755 12.2416667,29.7733333 15.8766667,29.94 C16.9441667,29.9883333 17.2841667,30 20,30 C22.7158333,30 23.0566667,29.9883333 24.1233333,29.94 C27.7516667,29.7733333 29.775,27.7583333 29.9391667,24.1233333 C29.9883333,23.0566667 30,22.7158333 30,20 C30,17.2841667 29.9883333,16.9441667 29.94,15.8775 C29.7766667,12.2491667 27.7591667,10.2275 24.1241667,10.0608333 C23.0566667,10.0116667 22.7158333,10 20,10 Z M20,14.5454545 C16.9876958,14.5454545 14.5454545,16.9874977 14.5454545,19.9995574 C14.5454545,23.0116172 16.9876958,25.4545455 20,25.4545455 C23.0123042,25.4545455 25.4545455,23.0125023 25.4545455,19.9995574 C25.4545455,16.9874977 23.0123042,14.5454545 20,14.5454545 Z M20,23.6363636 C17.9918182,23.6363636 16.3636364,22.0090909 16.3636364,20 C16.3636364,17.9918182 17.9918182,16.3636364 20,16.3636364 C22.0081818,16.3636364 23.6363636,17.9918182 23.6363636,20 C23.6363636,22.0090909 22.0081818,23.6363636 20,23.6363636 Z M25.4551768,13.6363636 C24.9526515,13.6363636 24.5454545,14.0435606 24.5454545,14.5454545 C24.5454545,15.0473485 24.9526515,15.4545455 25.4551768,15.4545455 C25.9570707,15.4545455 26.3636364,15.0473485 26.3636364,14.5454545 C26.3636364,14.0435606 25.9570707,13.6363636 25.4551768,13.6363636 Z" fill="currentColor"></path>
-                                  </g>
-                                </g>
-                              </svg>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </header>
-              </div>
-            </div>
-          </div>
-          <div class="vHyeZ yaMr7 css-1c375l0">
-            <section class="l7Lyt hugeTitleFontSize css-q2nxa6 ntvkk css-1dx5wtp block" data-block-type="cover" id="5fe5f694-79b7-4708-921b-0f7610de4b76">
-              <div class="hIG3J D3TBu RgGME">
-                <div class="HNCFr">
-                    <img class="IVe+H" draggable="false" src="bg1.webp" alt="Online Yoga" loading="lazy">
-                </div>
-                <div class="tgvwX css-1xo07ii"></div>
-                <div class="_4ebAt">
-                  <div class="HvmIt _5fS79 DpJiu" style="padding-top: 140px;">
-                    <div class="jDtdS">
-                      <div class="_6OU6x" data-testid="static-text-element">
-                        <div class="css-qm8tsa _6L72f">
-                          <div class="">
-                            <h1 class="text-align-center">Happy body, happy mind, happy you!</h1>
-                            <p><br></p>
-                            <p><br></p>
-                            <p>Hallo!&nbsp; Schön, dass du auf meiner Seite gelandet bist!&nbsp; ♡ &nbsp;</p>
-                            <p><br></p>
-                            <p>Hast du Lust auf eine Yoga-Stunde mit mir?&nbsp;</p>
-                            <p>Fühlst du dich gestresst in deinem Alltag? Hast du ab und zu Verspannungen im Rücken vom vielen Sitzen? Dann bist du hier genau richtig!</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="arREF">
-                <a href="#" class="_4MiO+">
-                  <span class="Gcq-- JdkRb jw287">
-                    <svg width="14px" height="7px" viewBox="0 0 14 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g transform="translate(-713.000000, -974.000000)" class="rs4FJ EY9Hl">
-                          <g id="Rectangle-2">
-                            <polygon points="720 981.071068 712.928932 974 727.071068 974"></polygon>
-                          </g>
-                        </g>
-                      </g>
-                    </svg>
-                  </span>
-                </a>
-              </div>
-            </section>
-            <section class="l7Lyt nhBBA hugeTitleFontSize x0JVR css-5wgzbe ntvkk css-1dx5wtp block" data-block-type="cover" id="76dd11cd-9dc0-430f-a065-5770e7993ce7">
-              <div class="_6bCT3">
-                <div class="_7pQKZ">
-                  <div class="_6OU6x" data-testid="static-text-element">
-                    <div class="_6L72f">
-                      <div class="">
-                        <h2>Über mich</h2>
-                        <p>Ich bin Amelie aus Bonn und praktiziere seit circa fünf Jahren mehrmals die Woche Yoga. Mit der Zeit hat sich bei mir eine große Begeisterung dafür entwickelt. Denn nach dem Yoga fühle ich mich befreit vom Alltagstress, bin körperlich und geistig entspannt und habe neue positive Energie. Im November 2019 habe ich mein Yogateacher Training in Indien absolviert und dabei die verschiedensten Yoga-Stile kennengelernt und viel über mich selbst und das Unterrichten gelernt.</p>
-                        <p>Diese Begeisterung möchte ich gerne mit Dir teilen.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="LJbLy">
-                <div class="hIG3J RgGME">
-                  <div class="HNCFr"><img class="IVe+H" draggable="false" src="pose1.webp" alt="" loading="lazy"></div>
-                  <div class="tgvwX css-8aonm5 css-1jyyyen"></div>
-                </div>
-              </div>
-            </section>
-            <section class="l7Lyt c63YM hugeTitleFontSize VrOGk css-9s1hn ntvkk css-1dx5wtp block" data-block-type="cover" id="d9e0d677-2de4-49b5-8c8d-c7cd77872707">
-              <div class="SnOY+">
-                <div class="ts6hc">
-                  <div class="_6OU6x" data-testid="static-text-element">
-                    <div class="A8RBL">
-                      <div class="">
-                        <h2>Warum Yoga?</h2>
-                        <p>Yoga und Meditation reduzieren nachweislich Stress und helfen dir in stressigen Situationen mehr auf dich zu achten. Durch kleine Meditationen, Atemübungen und die Asanas (Übungen) wollen wir den Körper und den Geist in Einklang bringen, die Gedanken zur Ruhe bringen und den Körper stärken und strecken.</p>
-                        <p>Ist das deine allererste Yoga-Stunde oder hast du schon ein bisschen Erfahrung? Meine Kurse sind anfängerfreundlich und ich erkläre alle Asanas ausführlich, für fortgeschrittenere Yogis gebe ich aber auch anspruchsvollere Variationen – so ist jeder herzlich willkommen!</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="fsEVW">
-                <div class="hIG3J RgGME">
-                  <div class="HNCFr"><img class="IVe+H" draggable="false" src="collage1.webp" alt="Asanas Yoga" loading="lazy"></div>
-                  <div class="tgvwX css-1g64zgr css-1jyyyen"></div>
-                </div>
-              </div>
-            </section>
-            <section class="l7Lyt nhBBA hugeTitleFontSize x0JVR css-gogx7t ntvkk css-1dx5wtp block" data-block-type="cover" id="4877a9cf-a509-446a-a88c-1b24faba171c">
-              <div class="_6bCT3">
-                <div class="_7pQKZ">
-                  <div class="_6OU6x" data-testid="static-text-element">
-                    <div class="A8RBL">
-                      <div class="">
-
-                        <h2>Was erwartet dich:</h2>
-                        <p>Zum Thema Yoga sieht man oft Fotos von Menschen mit den wildesten Verrenkungen, Kopfständen, Handständen…</p>
-                        <p>Keine Angst! Wir starten natürlich nicht sofort mit den anspruchsvollsten Asanas!</p>
-                        <p>Ich passe mich auf die Levels der Kursteilnehmer an, denn es ist mir sehr wichtig, dass du dich bei mir wohlfühlst. Denn beim Yoga geht es nicht um Leistung, sondern darum, dass du auf deinen Körper hörst und dir was Gutes tust.</p>
-                        <h3>Ich freue mich auf Dich!&nbsp; ♡ &nbsp;</h3>
-                        <p>Deine Amelie&nbsp;</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="LJbLy">
-                <div class="hIG3J RgGME">
-                  <div class="HNCFr"><img class="IVe+H" draggable="false" src="gruss1.webp" alt="Yoga in Indien Goa" loading="lazy"></div>
-                  <div class="tgvwX css-1f43jvr css-1jyyyen"></div>
-                </div>
-              </div>
-            </section>
-            <section class="l7Lyt hugeTitleFontSize css-9s1hn ntvkk css-1dx5wtp block" data-block-type="cover" id="4769b184-ae95-4a18-ae79-e7e61d9a42c4">
-              <div class="hIG3J D3TBu RgGME">
-                <div class="HNCFr"><img class="IVe+H" draggable="false" src="bg2.webp" alt="Palmen Indien Goa" loading="lazy"></div>
-                <div class="tgvwX css-1g64zgr"></div>
-                <div class="_4ebAt">
-                  <div class="HvmIt _5fS79 DpJiu">
-                    <div class="jDtdS">
-                      <div class="_6OU6x" data-testid="static-text-element">
-                        <div class="A8RBL">
-                          <div class="">
-                            <h1 class="text-align-center">Schreib mir</h1>
-                            <p>Bei Fragen, Wünschen und Anregungen schreib mir gerne eine Nachricht über Instagram oder über <a href="mailto:yoga_mit_amelie@yahoo.com">yoga_mit_amelie@yahoo.com</a></p>
-                            <p><br><br></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div class="vHyeZ yaMr7">
-            <div class="l7Lyt css-gogx7t _4RNf7 G1tn+ css-gogx7t" id="c30327c1-4502-4b27-8638-705720034076">
-              <div class="HvmIt">
-                <footer class="E2mpU">
-                  <div class="Wps-h">
-                    <div class="cCjiz">
-                      <div class="_6OU6x" data-testid="static-text-element">
-                        <div class="A8RBL">
-                          <div class="">
-                            <p>Certified by Yoga Alliance International in Multistyle Yoga ©&nbsp;</p>
-                            <p class="text-align-center">&nbsp;</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="WbAJM">
-                      <div class="_01w1y">
-                        <a href="https://www.instagram.com/yoga_mit_amelie/" target="_blank" class="mUV3B css-irzfol">
-                          <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                              <g id="Social/Instagram" transform="translate(-10.000000, -10.000000)">
-                                <path d="M24.0335249,11.8763976 C26.7380658,11.9994825 28.0013491,13.2827256 28.124434,15.9673067 C28.17267,17.0193498 28.1818182,17.3353786 28.1818182,20 C28.1818182,22.6654531 28.1718383,22.9806502 28.124434,24.0326933 C28.0005175,26.7147794 26.7405607,28.0005175 24.0335249,28.1236024 C22.9806502,28.1718383 22.6662847,28.1818182 20,28.1818182 C17.3353786,28.1818182 17.0193498,28.1718383 15.9673067,28.1236024 C13.2561127,27.9996858 11.9994825,26.7106212 11.8763976,24.0318616 C11.8281617,22.9798185 11.8181818,22.6646214 11.8181818,19.9991683 C11.8181818,17.3345469 11.8289933,17.0193498 11.8763976,15.9664751 C12.0003142,13.2827256 13.2602709,11.9986509 15.9673067,11.875566 C17.0201815,11.8281617 17.3353786,11.8181818 20,11.8181818 C22.6646214,11.8181818 22.9806502,11.8281617 24.0335249,11.8763976 Z M20,10 C17.2841667,10 16.9441667,10.0116667 15.8775,10.06 C12.2458333,10.2266667 10.2275,12.2416667 10.0608333,15.8766667 C10.0116667,16.9441667 10,17.2841667 10,20 C10,22.7158333 10.0116667,23.0566667 10.06,24.1233333 C10.2266667,27.755 12.2416667,29.7733333 15.8766667,29.94 C16.9441667,29.9883333 17.2841667,30 20,30 C22.7158333,30 23.0566667,29.9883333 24.1233333,29.94 C27.7516667,29.7733333 29.775,27.7583333 29.9391667,24.1233333 C29.9883333,23.0566667 30,22.7158333 30,20 C30,17.2841667 29.9883333,16.9441667 29.94,15.8775 C29.7766667,12.2491667 27.7591667,10.2275 24.1241667,10.0608333 C23.0566667,10.0116667 22.7158333,10 20,10 Z M20,14.5454545 C16.9876958,14.5454545 14.5454545,16.9874977 14.5454545,19.9995574 C14.5454545,23.0116172 16.9876958,25.4545455 20,25.4545455 C23.0123042,25.4545455 25.4545455,23.0125023 25.4545455,19.9995574 C25.4545455,16.9874977 23.0123042,14.5454545 20,14.5454545 Z M20,23.6363636 C17.9918182,23.6363636 16.3636364,22.0090909 16.3636364,20 C16.3636364,17.9918182 17.9918182,16.3636364 20,16.3636364 C22.0081818,16.3636364 23.6363636,17.9918182 23.6363636,20 C23.6363636,22.0090909 22.0081818,23.6363636 20,23.6363636 Z M25.4551768,13.6363636 C24.9526515,13.6363636 24.5454545,14.0435606 24.5454545,14.5454545 C24.5454545,15.0473485 24.9526515,15.4545455 25.4551768,15.4545455 C25.9570707,15.4545455 26.3636364,15.0473485 26.3636364,14.5454545 C26.3636364,14.0435606 25.9570707,13.6363636 25.4551768,13.6363636 Z" fill="currentColor"></path>
-                              </g>
-                            </g>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </footer>
-              </div>
-            </div>
-          </div>
-        </main>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="container">
+        <a href="#hero" class="logo">
+          <img src="logo.webp" alt="Yoga mit Amelie Logo" />
+        </a>
+        <div class="nav-links">
+          <a href="#about" class="nav-link">Über mich</a>
+          <a href="#yoga" class="nav-link">Warum Yoga</a>
+          <a href="#expect" class="nav-link">Was dich erwartet</a>
+          <a href="#testimonials" class="nav-link">Erfahrungen</a>
+          <a href="#contact" class="nav-link">Kontakt</a>
+          <a
+            href="https://www.instagram.com/yoga_mit_amelie/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+            aria-label="Instagram"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
-    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-image">
+        <img
+          src="bg1.webp"
+          alt="Yoga Praxis - Entspannung und Balance"
+          loading="eager"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <h1>Happy body, happy mind, happy you!</h1>
+        <p class="hero-subtitle">
+          Hallo! Schön, dass du auf meiner Seite gelandet bist! ♡
+        </p>
+        <p>
+          Hast du Lust auf eine Yoga-Stunde mit mir? Fühlst du dich gestresst in
+          deinem Alltag? Hast du ab und zu Verspannungen im Rücken vom vielen
+          Sitzen? Dann bist du hier genau richtig!
+        </p>
+        <a href="#about" class="btn-primary">Mehr erfahren</a>
+      </div>
+      <a
+        href="#about"
+        class="scroll-indicator"
+        aria-label="Nach unten scrollen"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 5v14M19 12l-7 7-7-7"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <h2>Über mich</h2>
+            <p>
+              Ich bin Amelie aus Bonn und praktiziere seit circa fünf Jahren
+              mehrmals die Woche Yoga. Mit der Zeit hat sich bei mir eine große
+              Begeisterung dafür entwickelt. Denn nach dem Yoga fühle ich mich
+              befreit vom Alltagstress, bin körperlich und geistig entspannt und
+              habe neue positive Energie.
+            </p>
+            <p>
+              Im November 2019 habe ich mein Yogateacher Training in Indien
+              absolviert und dabei die verschiedensten Yoga-Stile kennengelernt
+              und viel über mich selbst und das Unterrichten gelernt.
+            </p>
+            <p class="highlight">
+              Diese Begeisterung möchte ich gerne mit Dir teilen.
+            </p>
+          </div>
+          <div class="about-image">
+            <img
+              src="pose1.webp"
+              alt="Amelie - Zertifizierte Yoga Lehrerin"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Yoga Section -->
+    <section id="yoga" class="why-yoga">
+      <div class="container">
+        <div class="yoga-grid">
+          <div class="yoga-image">
+            <img
+              src="collage1.webp"
+              alt="Verschiedene Yoga Asanas"
+              loading="lazy"
+            />
+          </div>
+          <div class="yoga-content">
+            <h2>Warum Yoga?</h2>
+            <p>
+              Yoga und Meditation reduzieren nachweislich Stress und helfen dir
+              in stressigen Situationen mehr auf dich zu achten. Durch kleine
+              Meditationen, Atemübungen und die Asanas (Übungen) wollen wir den
+              Körper und den Geist in Einklang bringen, die Gedanken zur Ruhe
+              bringen und den Körper stärken und strecken.
+            </p>
+            <p>
+              Ist das deine allererste Yoga-Stunde oder hast du schon ein
+              bisschen Erfahrung? Meine Kurse sind anfängerfreundlich und ich
+              erkläre alle Asanas ausführlich, für fortgeschrittenere Yogis gebe
+              ich aber auch anspruchsvollere Variationen – so ist jeder herzlich
+              willkommen!
+            </p>
+
+            <div class="benefits">
+              <div class="benefit-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 11.08V12a10 10 0 11-5.93-9.14"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22 4L12 14.01l-3-3"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Stressabbau & Entspannung</span>
+              </div>
+              <div class="benefit-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 11.08V12a10 10 0 11-5.93-9.14"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22 4L12 14.01l-3-3"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Mehr Beweglichkeit</span>
+              </div>
+              <div class="benefit-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 11.08V12a10 10 0 11-5.93-9.14"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22 4L12 14.01l-3-3"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Körper & Geist in Einklang</span>
+              </div>
+              <div class="benefit-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 11.08V12a10 10 0 11-5.93-9.14"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22 4L12 14.01l-3-3"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Für Anfänger & Fortgeschrittene</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What to Expect Section -->
+    <section id="expect" class="expect">
+      <div class="container">
+        <div class="expect-grid">
+          <div class="expect-content">
+            <h2>Was erwartet dich</h2>
+            <p>
+              Zum Thema Yoga sieht man oft Fotos von Menschen mit den wildesten
+              Verrenkungen, Kopfständen, Handständen…
+            </p>
+            <p>
+              <strong>Keine Angst!</strong> Wir starten natürlich nicht sofort
+              mit den anspruchsvollsten Asanas!
+            </p>
+            <p>
+              Ich passe mich auf die Levels der Kursteilnehmer an, denn es ist
+              mir sehr wichtig, dass du dich bei mir wohlfühlst. Denn beim Yoga
+              geht es nicht um Leistung, sondern darum, dass du auf deinen
+              Körper hörst und dir was Gutes tust.
+            </p>
+            <p class="signature">
+              Ich freue mich auf Dich! ♡<br /><em>Deine Amelie</em>
+            </p>
+          </div>
+          <div class="expect-image">
+            <img
+              src="gruss1.webp"
+              alt="Yoga in Indien - Yoga Teacher Training"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2>Was andere sagen</h2>
+        <p class="section-subtitle">Erfahrungen meiner Yogis</p>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                "Amelies Yogastunden sind für mich kraftvoll und gleichzeitig
+                wunderbar entspannend. Mit ihrer sanften und positiven Art
+                schafft Amelie eine Atmosphäre, in der man sich sofort wohlfühlt
+                und einfach abschalten kann. Nach jeder Stunde fühle ich mich
+                ausgeglichen, ruhig und voller Energie."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <strong>Mone</strong>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                "Yoga mit Amelie ist einfach so entspannend und belebend. Sie
+                hat eine super ruhige und angenehme Stimme. Sie sorgt dafür,
+                dass all ihre „Yogis" in einem Tempo und in einem Flow sind. Mit
+                den Räucherstäbchen und der Klangschale wird das Savasanah und
+                alles drum herum sehr angenehm abgerundet."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <strong>Kristina</strong>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                "Die Yoga Stunden bei Amelie tun meinem Körper und meiner Seele
+                immer sehr gut. Sie steckt viel Liebe und Energie in die Stunden
+                und geht dazu noch auf einzelne Bedürfnisse ein. Nach ihren
+                angenehm angeleiteten Asanas fühle ich mich immer gestärkt und
+                Dank dem Shavasana bin ich nach der Stunde immer entspannt.
+                Danke für deine wundervolle Art liebe Amelie❤️."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <strong>Tine</strong>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                "Yoga bei Amelie, Wohlfühlstunde, menschlich und beim Yoga.
+                Amelie schafft schon beim Reinkommen eine gute und angenehme
+                Atmosphäre. Das Yoga passt sie individuellen Wünschen/Wehwehchen
+                der Teilnehmer an und bringt immer mal wieder was Neues von
+                einer Fortbildung mit, oder es gibt eine „fancy" Übung zum
+                ausprobieren. Das Program dehnt einen rundum schön durch und am
+                Ende geht man nicht nur entspannt ins Shvasana, sondern auch in
+                den Tag."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <strong>Axel</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="contact-image">
+        <img
+          src="bg2.webp"
+          alt="Kontaktiere mich für Yoga Kurse"
+          loading="lazy"
+        />
+        <div class="contact-overlay"></div>
+      </div>
+      <div class="contact-content">
+        <div class="container">
+          <h2>Schreib mir</h2>
+          <p>
+            Bei Fragen, Wünschen und Anregungen schreib mir gerne eine Nachricht
+            über Instagram oder per E-Mail.
+          </p>
+          <div class="contact-methods">
+            <a href="mailto:yoga_mit_amelie@yahoo.com" class="contact-btn">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 6l-10 7L2 6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              E-Mail senden
+            </a>
+            <a
+              href="https://www.instagram.com/yoga_mit_amelie/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-btn"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+                  fill="currentColor"
+                />
+              </svg>
+              Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>Certified by Yoga Alliance International in Multistyle Yoga</p>
+        </div>
+        <p class="copyright">
+          © 2025 Yoga mit Amelie. Made with ♡ by
+          <a href="https://breuer.dev" target="_blank" rel="noopener noreferrer"
+            >breuer.dev</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- Mobile Navigation Script -->
+    <script>
+      // Mobile navigation toggle
+      const navToggle = document.querySelector(".nav-toggle");
+      const navLinks = document.querySelector(".nav-links");
+
+      navToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        navToggle.classList.toggle("active");
+      });
+
+      // Close mobile menu when clicking on a link
+      document.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+          navToggle.classList.remove("active");
+        });
+      });
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Navbar background on scroll
+      const nav = document.querySelector(".nav");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          nav.classList.add("scrolled");
+        } else {
+          nav.classList.remove("scrolled");
+        }
+      });
+    </script>
   </body>
 </html>
