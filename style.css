@@ -12,6 +12,24 @@
   box-sizing: border-box;
 }
 
+/* Skip to main content link for accessibility & SEO */
+.skip-to-main {
+  position: absolute;
+  left: -9999px;
+  z-index: 9999;
+  padding: 1em;
+  background-color: var(--primary-green);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.skip-to-main:focus {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+
 :root {
   /* Color Palette - Inspired by reference sites */
   --primary-green: #7a9d8f;

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://yoga.elfri.ch/</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://yoga.elfri.ch/bg1.webp</image:loc>
+      <image:title>Yoga mit Amelie - Entspannung und Balance</image:title>
+      <image:caption>Amelie beim Yoga in natürlicher Umgebung</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://yoga.elfri.ch/pose1.webp</image:loc>
+      <image:title>Amelie - Zertifizierte Yogalehrerin</image:title>
+      <image:caption>Yoga-Pose demonstriert von Amelie</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://yoga.elfri.ch/collage1.webp</image:loc>
+      <image:title>Verschiedene Yoga Asanas</image:title>
+      <image:caption>Hatha, Vinyasa und Yin Yoga Übungen</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://yoga.elfri.ch/gruss1.webp</image:loc>
+      <image:title>Yoga Teacher Training in Indien</image:title>
+      <image:caption>Amelie während ihrer Ausbildung zur Yogalehrerin</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://yoga.elfri.ch/bg2.webp</image:loc>
+      <image:title>Kontakt - Yoga mit Amelie</image:title>
+      <image:caption>Natürliche Umgebung für Yoga und Meditation</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://yoga.elfri.ch/logo.webp</image:loc>
+      <image:title>Yoga mit Amelie Logo</image:title>
+      <image:caption>Logo der zertifizierten Yogalehrerin Amelie aus Bonn</image:caption>
+    </image:image>
+  </url>
+</urlset>

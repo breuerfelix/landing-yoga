@@ -1,0 +1,16 @@
+# Robots.txt for Yoga mit Amelie
+# https://yoga.elfri.ch
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yoga.elfri.ch/sitemap.xml
+
+# Block common bot paths (if needed in future)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /*.json$
+
+# Crawl-delay (optional, adjust if needed)
+Crawl-delay: 1
